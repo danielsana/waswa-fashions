@@ -1,0 +1,24 @@
+*,body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    font-family: sans-serif;
+}
+.breadc{
+    background-image: url(images/fashion1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.navbar{
+    display: flex;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+}
+.logo img{
+    width: 100%;
+}
