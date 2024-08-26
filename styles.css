@@ -74,12 +74,11 @@ ul li{
     color: white;
 }
 .desc a{
-    color: rgb(3,3,24);
-    background-color: aqua;
+    color: white;
     width: 20%;
     padding: 10px;
     margin: 5px;
-    border: 10px;
+    border: solid 2px;
     border-radius: 10px;
     border-color: orange;
 }
