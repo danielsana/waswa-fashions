@@ -6,11 +6,13 @@
     font-family: sans-serif;
 }
 .breadc{
+    display: flex;
     background-image: url(images/fashion1.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
+    justify-content: center;
 }
 .navbar{
     display: flex;
@@ -19,12 +21,65 @@
     margin-top: 20px;
     margin-left:110px;
     width: 80%;
-    background-color: rgb(171, 171, 212);
+    justify-content: space-between;
 }
 .logo{
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: black;
 }
 .logo img{
     width: 100%;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+ul{
+    list-style: none;
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0, 0.5);
+}
+.desc{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 40vh;
+    margin-top: 25%;
+    justify-content: center;
+    align-items: center;
+    color: rgb(3, 3, 46);
+    text-align: center;
+    background-color: rgb(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+.desc h1{
+    padding: 5px;
+    margin: 5px;
+    color: white;
+}
+.desc p{
+    padding: 5px;
+    margin: 5px;
+    color: white;
+}
+.desc a{
+    color: rgb(3,3,24);
+    background-color: aqua;
+    width: 20%;
+    padding: 10px;
+    margin: 5px;
+    border: 10px;
+    border-radius: 10px;
+    border-color: orange;
 }
