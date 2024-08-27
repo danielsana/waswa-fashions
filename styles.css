@@ -144,7 +144,6 @@ ul li {
   font-size: 0.65em;
 }
 .sec3{
-    background-color: aqua;
     height: 60vh;
     width: 80%;
     margin: 10px auto;
@@ -164,11 +163,9 @@ ul li {
     color: orange;
 }
 .sec3-part2{
-    background-color: #4caf50;
     display: flex;
 }
 .sec3-part2 div{
-    background-color: blueviolet;
     padding: 10px;
     margin: 10px;
     transition: 0.4s;
@@ -207,5 +204,6 @@ ul li {
     background-color: orange;
     scale: 1.1;
     color: white;
+    border-left: solid 0.5px red;
     /* transform: translateY(-10px); */
 }
