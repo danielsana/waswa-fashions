@@ -163,3 +163,49 @@ ul li {
 .sec3-part1 h4, .sec3-part1 span{
     color: orange;
 }
+.sec3-part2{
+    background-color: #4caf50;
+    display: flex;
+}
+.sec3-part2 div{
+    background-color: blueviolet;
+    padding: 10px;
+    margin: 10px;
+    transition: 0.4s;
+}
+.sec3-part2 h1{
+    color: orange;
+    font-size: 1.5em;
+}
+.sec3-part2 h2{
+    color: black;
+    font-size: 1.5em;
+}
+.sec3-part2 h1,h2,p{
+    margin: 3px;
+    padding: 3px;
+    transition: 0.2s;
+}
+.sec3-part2 p{
+    color: gray;
+    font-size: 0.8em;
+}
+.sec3-part2 div:hover h2{
+    color: white;
+    transform: translateY(-10px);
+}
+.sec3-part2 div:hover p{
+    color: white;
+    transform: translateY(-10px);
+}
+.sec3-part2 div:hover h1{
+    color: white;
+    transform: translateY(-10px);
+}
+
+.sec3-part2 div:hover{
+    background-color: orange;
+    scale: 1.1;
+    color: white;
+    /* transform: translateY(-10px); */
+}
