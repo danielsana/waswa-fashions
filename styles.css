@@ -148,11 +148,17 @@ ul li {
     height: 60vh;
     width: 80%;
     margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .sec3-part1{
-    background-color: blue;
     margin: 20px auto;
     text-align: center;
+}
+.sec3-part1 h4{
+    margin: 10px;
 }
 .sec3-part1 h4, .sec3-part1 span{
     color: orange;
