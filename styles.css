@@ -4,8 +4,8 @@ body {
   padding: 0;
   font-size: 0.97em;
 }
-h1{
-    font-size: 1.3em;
+h1 {
+  font-size: 1.3em;
 }
 .container {
   font-family: sans-serif;
@@ -87,55 +87,59 @@ ul li {
   border-radius: 10px;
   border-color: orange;
 }
-.sec2{
-    margin: 40px auto;
-    width: 80%;
-    height: 50vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.sec2 {
+  margin: 40px auto;
+  width: 80%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.myVideo{
-    height: 100%;
-    width: 50%;
+.myVideo {
+  height: 100%;
+  width: 50%;
 }
-.sec2-desc{
-    height: 100%;
-    width: 50%;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-size: 0.8em;
+.sec2-desc {
+  height: 100%;
+  width: 50%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 0.8em;
 }
-.sec2-desc h1{
-    font-size: 1.5em;
-    color: black;
-    margin: 10px;
+.sec2-desc h2 {
+  font-size: 1.5em;
+  color: orange;
+  margin: 10px;
 }
-.sec2-desc ul{
-    display: flex;
-    flex-direction: column;
-    margin: 10px;
+.sec2-desc ul {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
 }
 .sec2-desc li::before {
-    content: '✔'; /* Custom bullet */
-    position: absolute;
-    left: 0;
-    top: 0;
-    color: #4CAF50; /* Bullet color */
+  content: "✔"; /* Custom bullet */
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #4caf50; /* Bullet color */
 }
-.sec2-desc p{
-    margin: 10px;
+.sec2-desc span {
+  color: orange;
+  font-size: 1.1em;
 }
-.sec2-desc li{
-    margin: 3px;
-    width: 90%;
-    display: flex;
-    justify-content: start;
-    padding: 5;
-    height: 30%;
-    font-size: 0.75em;
+.sec2-desc p {
+  margin: 10px;
+}
+.sec2-desc li {
+  margin: 3px;
+  width: 90%;
+  display: flex;
+  justify-content: start;
+  padding: 5;
+  height: 30%;
+  font-size: 0.65em;
 }
