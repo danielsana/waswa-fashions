@@ -2,6 +2,10 @@
 body {
   margin: 0;
   padding: 0;
+  font-size: 0.97em;
+}
+h1{
+    font-size: 1.3em;
 }
 .container {
   font-family: sans-serif;
@@ -90,7 +94,6 @@ ul li {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: aqua;
 }
 .myVideo{
     height: 100%;
@@ -99,4 +102,40 @@ ul li {
 .sec2-desc{
     height: 100%;
     width: 50%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 0.8em;
+}
+.sec2-desc h1{
+    font-size: 1.5em;
+    color: black;
+    margin: 10px;
+}
+.sec2-desc ul{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.sec2-desc li::before {
+    content: '✔'; /* Custom bullet */
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #4CAF50; /* Bullet color */
+}
+.sec2-desc p{
+    margin: 10px;
+}
+.sec2-desc li{
+    margin: 3px;
+    width: 90%;
+    display: flex;
+    justify-content: start;
+    padding: 5;
+    height: 30%;
+    font-size: 0.75em;
 }
