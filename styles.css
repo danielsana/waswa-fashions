@@ -143,67 +143,138 @@ ul li {
   height: 30%;
   font-size: 0.65em;
 }
-.sec3{
-    height: 60vh;
-    width: 80%;
-    margin: 10px auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.sec3 {
+  height: 60vh;
+  width: 80%;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.sec3-part1{
-    margin: 20px auto;
-    text-align: center;
+.sec3-part1 {
+  margin: 20px auto;
+  text-align: center;
 }
-.sec3-part1 h4{
-    margin: 10px;
+.sec3-part1 h4 {
+  margin: 10px;
 }
-.sec3-part1 h4, .sec3-part1 span{
-    color: orange;
+.sec3-part1 h4,
+.sec3-part1 span {
+  color: orange;
 }
-.sec3-part2{
-    display: flex;
+.sec3-part2 {
+  display: flex;
 }
-.sec3-part2 div{
-    padding: 10px;
-    margin: 10px;
-    transition: 0.4s;
+.sec3-part2 div {
+  padding: 10px;
+  margin: 10px;
+  transition: 0.4s;
 }
-.sec3-part2 h1{
-    color: orange;
-    font-size: 1.5em;
+.sec3-part2 h1 {
+  color: orange;
+  font-size: 1.5em;
 }
-.sec3-part2 h2{
-    color: black;
-    font-size: 1.5em;
+.sec3-part2 h2 {
+  color: black;
+  font-size: 1.5em;
 }
-.sec3-part2 h1,h2,p{
-    margin: 3px;
-    padding: 3px;
-    transition: 0.2s;
+.sec3-part2 h1,
+h2,
+p {
+  margin: 3px;
+  padding: 3px;
+  transition: 0.2s;
 }
-.sec3-part2 p{
-    color: gray;
-    font-size: 0.8em;
+.sec3-part2 p {
+  color: gray;
+  font-size: 0.8em;
 }
-.sec3-part2 div:hover h2{
-    color: white;
-    transform: translateY(-10px);
+.sec3-part2 div:hover h2 {
+  color: white;
+  transform: translateY(-10px);
 }
-.sec3-part2 div:hover p{
-    color: white;
-    transform: translateY(-10px);
+.sec3-part2 div:hover p {
+  color: white;
+  transform: translateY(-10px);
 }
-.sec3-part2 div:hover h1{
-    color: white;
-    transform: translateY(-10px);
+.sec3-part2 div:hover h1 {
+  color: white;
+  transform: translateY(-10px);
 }
 
-.sec3-part2 div:hover{
-    background-color: orange;
-    scale: 1.1;
-    color: white;
-    border-left: solid 0.5px red;
-    /* transform: translateY(-10px); */
+.sec3-part2 div:hover {
+  background-color: orange;
+  scale: 1.1;
+  color: white;
+  border-left: solid 0.5px red;
+  /* transform: translateY(-10px); */
+}
+
+.sec4 {
+  height: 60vh;
+  width: 80%;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sec4-part1 {
+  margin: 20px auto;
+  text-align: center;
+}
+.sec4-part1 h4 {
+  margin: 10px;
+}
+.sec4-part1 h4,
+.sec4-part1 span {
+  color: orange;
+}
+.sec4-part2 {
+  display: flex;
+}
+.sec4-part2 div {
+  padding: 10px;
+  margin: 10px;
+  transition: 0.4s;
+}
+.sec4-part2 h1 {
+  color: orange;
+  font-size: 1.5em;
+}
+.sec4-part2 h2 {
+  color: black;
+  font-size: 1.5em;
+}
+.sec4-part2 h1,
+h2,
+p {
+  margin: 3px;
+  padding: 3px;
+  transition: 0.2s;
+}
+.sec4-part2 p {
+  color: gray;
+  font-size: 0.8em;
+}
+.sec4-part2 div:hover h2 {
+  color: white;
+  transform: translateY(-10px);
+}
+.sec4-part2 div:hover p {
+  color: white;
+  transform: translateY(-10px);
+}
+.sec4-part2 div:hover h1 {
+  color: white;
+  transform: translateY(-10px);
+}
+
+.sec4-part2 div:hover {
+  background-color: orange;
+  scale: 1.1;
+  color: white;
+  border-left: solid 0.5px red;
+  /* transform: translateY(-10px); */
 }
