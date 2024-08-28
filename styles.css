@@ -234,11 +234,48 @@ p {
 .sec4-part2 {
   display: flex;
 }
-.sec4-part2 div {
+.sec4-part2 .div1 {
   padding: 10px;
   margin: 10px;
   transition: 0.4s;
+  width: 25%;
 }
+.sec4-part2 .div1 ul{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.sec4-part2 .div1 ul li{
+  background-color: white;
+  width: 100%;
+  margin: 1px;
+  padding: 3px;
+}
+.sec4-part2 .div2 {
+  padding: 10px;
+  margin: 10px;
+  transition: 0.4s;
+  width: 50%;
+}
+.sec4-part2 .div3 {
+  padding: 10px;
+  margin: 10px;
+  transition: 0.4s;
+  width: 25%;
+}
+.sec4-part2 .div3 .div3img{
+  background-color: orange;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.sec4-part2 .div3 .div3img img{
+  height: 100%;
+  width:100%;
+}
+
 .sec4-part2 h1 {
   color: orange;
   font-size: 1.5em;
@@ -257,24 +294,4 @@ p {
 .sec4-part2 p {
   color: gray;
   font-size: 0.8em;
-}
-.sec4-part2 div:hover h2 {
-  color: white;
-  transform: translateY(-10px);
-}
-.sec4-part2 div:hover p {
-  color: white;
-  transform: translateY(-10px);
-}
-.sec4-part2 div:hover h1 {
-  color: white;
-  transform: translateY(-10px);
-}
-
-.sec4-part2 div:hover {
-  background-color: orange;
-  scale: 1.1;
-  color: white;
-  border-left: solid 0.5px red;
-  /* transform: translateY(-10px); */
 }
