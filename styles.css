@@ -239,18 +239,27 @@ p {
   margin: 10px;
   transition: 0.4s;
   width: 25%;
+  
 }
 .sec4-part2 .div1 ul{
   list-style: none;
   display: flex;
   flex-direction: column;
   width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  
 }
 .sec4-part2 .div1 ul li{
+  border-right: solid 0.5px gray;
+  border-radius: 0;
   background-color: white;
   width: 100%;
-  margin: 1px;
+  margin: 8px;
   padding: 3px;
+}
+.sec4-part2 .div1 ul li:hover{
+  color: orange;
 }
 .sec4-part2 .div2 {
   padding: 10px;
@@ -274,6 +283,7 @@ p {
 .sec4-part2 .div3 .div3img img{
   height: 100%;
   width:100%;
+  object-fit: cover;
 }
 
 .sec4-part2 h1 {
