@@ -370,6 +370,7 @@ p {
   text-align: center;
 }
 .sec7-part2{
+  width: 90%;
   display: flex;
 }
 .sec7-part1 h2,span{
@@ -378,7 +379,18 @@ p {
 .sec7-part2 .sec7div{
   padding: 3px;
   margin: 3px;
-  height: 60%;
+  height: 80%;
   width: 32%;
   overflow: hidden;
+}
+.sec7-part2 .sec7div img{
+  width: 100%;
+  height: 60%;
+  object-fit: cover;
+}
+.sec7-part2 .sec7div .names{
+
+}
+.sec7-part2 .sec7div .links{
+  background-color: green;
 }
