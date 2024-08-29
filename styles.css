@@ -355,3 +355,30 @@ p {
 .sec6-part2 div img:hover{
   scale: 1.2;
 }
+.sec7{
+  height: 80vh;
+  width: 80%;
+  margin-top: 200px;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sec7-part1{
+  margin: 20px auto;
+  text-align: center;
+}
+.sec7-part2{
+  display: flex;
+}
+.sec7-part1 h2,span{
+  color: orange;
+}
+.sec7-part2 .sec7div{
+  padding: 3px;
+  margin: 3px;
+  height: 60%;
+  width: 32%;
+  overflow: hidden;
+}
