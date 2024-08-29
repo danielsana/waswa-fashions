@@ -397,7 +397,11 @@ p {
 
 }
 .sec7-part2 .sec7div .links{
-  background-color: green;
+  display: flex;
+  justify-content: space-evenly;
+  color: gray;
+  align-items: end;
+  width: 50%;
 }
 .sec7-part2 .sec7div .details{
   background-color: white;
@@ -409,4 +413,7 @@ p {
   z-index: 9;
   position: absolute;
   top: 75%;
+}
+i:hover{
+  color: orange;
 }
